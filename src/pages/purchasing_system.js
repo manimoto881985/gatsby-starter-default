@@ -20,10 +20,10 @@ const IndexPage = () => (
     </h3>
     <div class="columns is-mobile">
       <div class="column">
-        <img src="/images/purchasing_system/amazon1.png" className="ikukyu__screen_capture" />
+        <img src="/images/purchasing_system/amazon1.png" className="ikukyu__screen_capture" alt="Amazonトップページ画面" />
       </div>
       <div class="column">
-      <img src="/images/purchasing_system/amazon2.png" className="ikukyu__screen_capture" />
+      <img src="/images/purchasing_system/amazon2.png" className="ikukyu__screen_capture" alt="Amazon商品ページ画面" />
       </div>
     </div>
     <p>基本的にはAmazonを使用</p>
@@ -33,10 +33,10 @@ const IndexPage = () => (
     </h3>
     <div class="columns is-mobile">
       <div class="column">
-        <img src="/images/purchasing_system/akahon1.png" className="ikukyu__screen_capture" />
+        <img src="/images/purchasing_system/akahon1.png" className="ikukyu__screen_capture" alt="アカチャンホンポネット通販トップページ画面" />
       </div>
       <div class="column">
-      <img src="/images/purchasing_system/akahon2.png" className="ikukyu__screen_capture" />
+      <img src="/images/purchasing_system/akahon2.png" className="ikukyu__screen_capture" alt="アカチャンホンポネット通販商品ページ画面" />
       </div>
     </div>
     <p>おしりふきやガーゼハンカチなどアカチャンホンポのオリジナル商品の購入に使用。おむつまとめ買いがAmazonより安い。購入金額が5,400円(税込)以上でないと送料が必要。</p>
@@ -46,10 +46,10 @@ const IndexPage = () => (
     </h3>
     <div class="columns is-mobile">
       <div class="column">
-        <img src="/images/purchasing_system/yodobashi1.png" className="ikukyu__screen_capture" />
+        <img src="/images/purchasing_system/yodobashi1.png" className="ikukyu__screen_capture" alt="ヨドバシ.comトップページ画面" />
       </div>
       <div class="column">
-      <img src="/images/purchasing_system/yodobashi2.png" className="ikukyu__screen_capture" />
+      <img src="/images/purchasing_system/yodobashi2.png" className="ikukyu__screen_capture" alt="ヨドバシ.com商品ページ画面" />
       </div>
     </div>
     <p>即日欲しい場合に利用。送料無料で当日配送してくれる。</p>
@@ -60,10 +60,10 @@ const IndexPage = () => (
     </h3>
     <div class="columns is-mobile">
       <div class="column">
-        <img src="/images/purchasing_system/iynet1.png" className="ikukyu__screen_capture" />
+        <img src="/images/purchasing_system/iynet1.png" className="ikukyu__screen_capture" alt="イトーヨーカドーネットスーパートップページ画面" />
       </div>
       <div class="column">
-      <img src="/images/purchasing_system/iynet2.png" className="ikukyu__screen_capture" />
+      <img src="/images/purchasing_system/iynet2.png" className="ikukyu__screen_capture" alt="イトーヨーカドーネットスーパー商品ページ画面" />
       </div>
     </div>
     <p>

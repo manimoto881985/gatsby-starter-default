@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div className="ikukyu__image__container">
       <div className="ikukyu__image__inner">
         <a href="https://www.gom-in.com/shop/item/GO-KJ-DS-0531.html" target="_blank" rel="noopener noreferrer">
-          <img src="/images/stamp/stamp.png" />
+          <img src="/images/stamp/stamp.png" alt="ハンコヤドットコム データ入稿 木台ゴム印 5×31mm" />
         </a>
       </div>
     </div>

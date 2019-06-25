@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
               to="/"
               className="ikukyu__navbar-item"
             >
-              <img src="/images/common/title.svg" className="ikukyu__navbar-item__title"/>
+              <img src="/images/common/title.svg" className="ikukyu__navbar-item__title" alt="男性育休やることマニュアル" />
             </Link>
           </h1>
         </div>
