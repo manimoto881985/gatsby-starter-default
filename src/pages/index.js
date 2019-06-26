@@ -59,7 +59,7 @@ const IndexPage = () => (
     <footer>
       <div>© {new Date().getFullYear()} 男性育休やることマニュアル</div>
       <div>
-        <a href="#">お問い合わせ</a>
+        <OutboundLink href="#">お問い合わせ</OutboundLink>
       </div>
     </footer>
   </>

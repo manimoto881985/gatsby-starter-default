@@ -51,36 +51,36 @@ const IndexPage = () => (
 
 
     <p>
-      <a href="https://docs.google.com/spreadsheets/d/1ehqwyNggUCS5DpqMnmZA7WXlE7EUawcBh6vVfN17xGk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <OutboundLink href="https://docs.google.com/spreadsheets/d/1ehqwyNggUCS5DpqMnmZA7WXlE7EUawcBh6vVfN17xGk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faExternalLinkAlt} className="ikukyu__fa__margin-right" />
         Googleスプレッドシートで開く
-      </a>
+      </OutboundLink>
     </p>
 
     <div class="field has-addons">
       <p class="control">
-        <a href="/files/daily_schedule/daily_schedule.xlsx" class="button is-link is-outlined">
+        <OutboundLink href="/files/daily_schedule/daily_schedule.xlsx" class="button is-link is-outlined">
           <span class="icon is-small">
             <FontAwesomeIcon icon={faFileExcel} />
           </span>
           <span>Excel版</span>
-        </a>
+        </OutboundLink>
       </p>
       <p class="control">
-        <a href="/files/daily_schedule/daily_schedule.csv" class="button is-link is-outlined">
+        <OutboundLink href="/files/daily_schedule/daily_schedule.csv" class="button is-link is-outlined">
           <span class="icon is-small">
             <FontAwesomeIcon icon={faFileCsv} />
           </span>
           <span>CSV版</span>
-        </a>
+        </OutboundLink>
       </p>
       <p class="control">
-        <a href="/files/daily_schedule/daily_schedule.pdf" class="button is-link is-outlined">
+        <OutboundLink href="/files/daily_schedule/daily_schedule.pdf" class="button is-link is-outlined">
           <span class="icon is-small">
             <FontAwesomeIcon icon={faFilePdf} />
           </span>
           <span>PDF版</span>
-        </a>
+        </OutboundLink>
       </p>
     </div>
 

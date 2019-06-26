@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileExcel } from '@fortawesome/free-solid-svg-icons'
 import { faFileCsv } from '@fortawesome/free-solid-svg-icons'
@@ -24,36 +25,36 @@ const IndexPage = () => (
     <img src="/images/shopping_list/shopping_list.svg" alt="家事分担表" />
 
     <p>
-      <a href="https://docs.google.com/spreadsheets/d/1dovHvfwZXgKJaVuYKvQ5KPDTMjZEyZj4fMO2prbxJic/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <OutboundLink href="https://docs.google.com/spreadsheets/d/1dovHvfwZXgKJaVuYKvQ5KPDTMjZEyZj4fMO2prbxJic/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faExternalLinkAlt} className="ikukyu__fa__margin-right" />
         Googleスプレッドシートで開く
-      </a>
+      </OutboundLink>
     </p>
 
     <div class="field has-addons">
       <p class="control">
-        <a href="/files/housework/housework.xlsx" class="button is-link is-outlined">
+        <OutboundLink href="/files/housework/housework.xlsx" class="button is-link is-outlined">
           <span class="icon is-small">
             <FontAwesomeIcon icon={faFileExcel} />
           </span>
           <span>Excel版</span>
-        </a>
+        </OutboundLink>
       </p>
       <p class="control">
-        <a href="/files/housework/housework.zip" class="button is-link is-outlined">
+        <OutboundLink href="/files/housework/housework.zip" class="button is-link is-outlined">
           <span class="icon is-small">
             <FontAwesomeIcon icon={faFileCsv} />
           </span>
           <span>CSV版</span>
-        </a>
+        </OutboundLink>
       </p>
       <p class="control">
-        <a href="/files/housework/housework.pdf" class="button is-link is-outlined">
+        <OutboundLink href="/files/housework/housework.pdf" class="button is-link is-outlined">
           <span class="icon is-small">
             <FontAwesomeIcon icon={faFilePdf} />
           </span>
           <span>PDF版</span>
-        </a>
+        </OutboundLink>
       </p>
     </div>
 
@@ -66,13 +67,13 @@ const IndexPage = () => (
     <p>
       家事一覧の効果は「自動化」「外注化」を検討できることも大きい。<br />
       自動化については、うちも家事分担表を通じて食洗機の購入を決めたり、ロボット掃除機の導入を検討した。
-      <span class="ikukyu__text__small">（<a href="https://www.duskin.jp/special/siro/" target="_blank" rel="noopener noreferrer">ダスキンのレンタル</a>を試した結果、合わないため購入を見送った。）</span><br />
+      <span class="ikukyu__text__small">（<OutboundLink href="https://www.duskin.jp/special/siro/" target="_blank" rel="noopener noreferrer">ダスキンのレンタル</OutboundLink>を試した結果、合わないため購入を見送った。）</span><br />
       また外注化についても夕食に宅配弁当を導入したり、週末掃除の一部を家事代行に依頼することを検討している。
     </p>
 
     <h2 className="subtitle ikukyu__subtitle">家事のゲーム化</h2>
     <p>
-      <a href="https://habitica.com/static/home" target="_blank" rel="noopener noreferrer">Habitica</a>というスマートフォンアプリを使っている。<br/>
+      <OutboundLink href="https://habitica.com/static/home" target="_blank" rel="noopener noreferrer">Habitica</OutboundLink>というスマートフォンアプリを使っている。<br/>
     </p>
 
     <div class="columns is-mobile">
@@ -85,27 +86,27 @@ const IndexPage = () => (
     </div>
 
     <p>
-      <a href="https://habitica.com/static/home" target="_blank" rel="noopener noreferrer">Habitica</a>はタスク管理アプリだ。<br/>
+      <OutboundLink href="https://habitica.com/static/home" target="_blank" rel="noopener noreferrer">Habitica</OutboundLink>はタスク管理アプリだ。<br/>
       「日課」機能を使うと、日次タスクや週次タスクを設定できる。設定したタスクを完了にすると経験値とお金が貯まる。経験値が増えるレベルアップし、お金が貯まると武器や防具が買えてアバターの見た目を変えることができる。家事をやることでどんどんレベルアップできるのだ。<br/>
       自分は早く新しい武器や防具を買いたくて土曜日のタスクを金曜夜にやってしまったりしている。楽しい。<br/>
     </p>
 
     <div class="field is-grouped">
       <p class="control">
-        <a href="https://apps.apple.com/jp/app/habitica-gamified-taskmanager/id994882113?mt=8" target="_blank" rel="noopener noreferrer" className="button is-link is-outlined">
+        <OutboundLink href="https://apps.apple.com/jp/app/habitica-gamified-taskmanager/id994882113?mt=8" target="_blank" rel="noopener noreferrer" className="button is-link is-outlined">
           <span class="icon is-small">
             <FontAwesomeIcon icon={faApple} />
           </span>
           <span>App Store</span>
-        </a>
+        </OutboundLink>
       </p>
       <p class="control">
-        <a href="https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica&hl=ja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" rel="noopener noreferrer" className="button is-link is-outlined">
+        <OutboundLink href="https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica&hl=ja&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" rel="noopener noreferrer" className="button is-link is-outlined">
           <span class="icon is-small">
             <FontAwesomeIcon icon={faGooglePlay} />
           </span>
           <span>Google Play</span>
-        </a>
+        </OutboundLink>
       </p>
     </div>
 

@@ -20,7 +20,7 @@ const IndexPage = () => (
 
     <h2 className="subtitle ikukyu__subtitle">日用品</h2>
     <h3 className="ikukyu__subsubtitle">
-      <a href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer">Amazon</a>
+      <OutboundLink href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer">Amazon</OutboundLink>
     </h3>
     <div class="columns is-mobile">
       <div class="column">
@@ -33,7 +33,7 @@ const IndexPage = () => (
     <p>基本的にはAmazonを使用</p>
 
     <h3 className="ikukyu__subsubtitle">
-      <a href="https://akachan.omni7.jp/top" target="_blank" rel="noopener noreferrer">アカチャンホンポネット通販</a>
+      <OutboundLink href="https://akachan.omni7.jp/top" target="_blank" rel="noopener noreferrer">アカチャンホンポネット通販</OutboundLink>
     </h3>
     <div class="columns is-mobile">
       <div class="column">
@@ -46,7 +46,7 @@ const IndexPage = () => (
     <p>おしりふきやガーゼハンカチなどアカチャンホンポのオリジナル商品の購入に使用。おむつまとめ買いがAmazonより安い。購入金額が5,400円(税込)以上でないと送料が必要。</p>
 
     <h3 className="ikukyu__subsubtitle">
-      <a href="https://www.yodobashi.com/" target="_blank" rel="noopener noreferrer">ヨドバシ.com</a>
+      <OutboundLink href="https://www.yodobashi.com/" target="_blank" rel="noopener noreferrer">ヨドバシ.com</OutboundLink>
     </h3>
     <div class="columns is-mobile">
       <div class="column">
@@ -60,7 +60,7 @@ const IndexPage = () => (
 
     <h2 className="subtitle ikukyu__subtitle">食料品</h2>
     <h3 className="ikukyu__subsubtitle">
-      <a href="https://www.iy-net.jp/" target="_blank" rel="noopener noreferrer">イトーヨーカドーネットスーパー</a>
+      <OutboundLink href="https://www.iy-net.jp/" target="_blank" rel="noopener noreferrer">イトーヨーカドーネットスーパー</OutboundLink>
     </h3>
     <div class="columns is-mobile">
       <div class="column">
@@ -72,7 +72,7 @@ const IndexPage = () => (
     </div>
     <p>
       早めの時間に注文すれば即日配達してくれて便利。<br />
-      イトーヨーカドーのネットスーパーは<a href="https://www.iy-net.jp/nssp/shopping/commoditydetails.do?shopcd=00210&productId=4908326110013" target="_blank" rel="noopener noreferrer">「冷凍カットベーコン」</a>が販売している。掴んで入れるだけで料理に肉を加えることができる。
+      イトーヨーカドーのネットスーパーは<OutboundLink href="https://www.iy-net.jp/nssp/shopping/commoditydetails.do?shopcd=00210&productId=4908326110013" target="_blank" rel="noopener noreferrer">「冷凍カットベーコン」</OutboundLink>が販売している。掴んで入れるだけで料理に肉を加えることができる。
     </p>
     <p>
       生協も検討したが、週1回しか注文できない、配達日時が指定できないのが不便なため見送った。<br />
