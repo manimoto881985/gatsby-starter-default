@@ -3,6 +3,7 @@ module.exports = {
     title: `男性育休やることマニュアル`,
     description: `育休を取得した男性が事前の準備段取りで家事・育児効率を最大化するためのマニュアル`,
     author: `manimoto`,
+    siteUrl: `https://www.dansei-ikukyu-manual.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,6 +43,7 @@ module.exports = {
         trackingId: "UA-142778830-1",
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
