@@ -2,6 +2,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretLeft } from '@fortawesome/free-solid-svg-icons'
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 
 const IndexPage = () => (
   <Layout>
@@ -87,6 +91,21 @@ const IndexPage = () => (
       哺乳瓶の本数を4本にしたところツラさが軽減した。消毒頻度が3回に1度になり、常に使用できる哺乳瓶が最低2本はある状態にできた。<br />
       使用した哺乳瓶は軽く水洗いして<a href="https://www.nitori-net.jp/store/ja/ec/8980356s" target="_blank" rel="noopener noreferrer">ステンレス洗いおけ</a>に入れておくようにしている。3本たまったら水をはり、<a href="https://amzn.to/2J8shRs" target="_blank" rel="noopener noreferrer">哺乳瓶洗浄剤</a>で洗って、<a href="https://amzn.to/2WorK2z" target="_blank" rel="noopener noreferrer">電子レンジスチーム</a>にかけるというサイクルで運用している。
     </p>
+
+    <nav class="pagination is-small is-centered ikukyu__pagination" role="navigation" aria-label="pagination">
+      <Link to="/purchasing_system" className="pagination-previous">
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretLeft} />
+        </span>
+        日常的な買い物体制の整備
+      </Link>
+      <Link to="/stamp" className="pagination-next">
+        ゴム印の作成
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretRight} />
+        </span>
+      </Link>
+    </nav>
   </Layout>
 )
 

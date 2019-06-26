@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileExcel } from '@fortawesome/free-solid-svg-icons'
 import { faFileCsv } from '@fortawesome/free-solid-svg-icons'
@@ -6,6 +7,7 @@ import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 import { faApple } from '@fortawesome/free-brands-svg-icons'
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -106,6 +108,15 @@ const IndexPage = () => (
         </a>
       </p>
     </div>
+
+    <nav class="pagination is-small is-centered ikukyu__pagination" role="navigation" aria-label="pagination">
+      <Link to="/daily_schedule" className="pagination-next">
+        1日のスケジュール作成
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretRight} />
+        </span>
+      </Link>
+    </nav>
   </Layout>
 )
 

@@ -2,6 +2,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretLeft } from '@fortawesome/free-solid-svg-icons'
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 
 const IndexPage = () => (
   <Layout>
@@ -112,6 +116,20 @@ const IndexPage = () => (
       <li>健康保険被扶養者異動届</li>
     </ul>
 
+    <nav class="pagination is-small is-centered ikukyu__pagination" role="navigation" aria-label="pagination">
+      <Link to="/daily_schedule" className="pagination-previous">
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretLeft} />
+        </span>
+        1日のスケジュール作成
+      </Link>
+      <Link to="/shopping_list" className="pagination-next">
+        買い物リストの作成
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretRight} />
+        </span>
+      </Link>
+    </nav>
   </Layout>
 )
 

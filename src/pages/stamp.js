@@ -2,6 +2,9 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretLeft } from '@fortawesome/free-solid-svg-icons'
 
 const IndexPage = () => (
   <Layout>
@@ -59,6 +62,15 @@ const IndexPage = () => (
       ゴム印は<a href="https://www.gom-in.com/shop/item/GO-KJ-DS-0531.html" target="_blank" rel="noopener noreferrer">ハンコヤドットコム</a>で作成した<br />
       （データ入稿 木台ゴム印 5×31mm）
     </p>
+
+    <nav class="pagination is-centered ikukyu__pagination" role="navigation" aria-label="pagination">
+      <Link to="/milk_disinfection_baby_bottle" className="pagination-previous">
+        <span class="icon is-small">
+          <FontAwesomeIcon icon={faCaretLeft} />
+        </span>
+        ミルク・消毒・哺乳瓶
+      </Link>
+    </nav>
   </Layout>
 )
 

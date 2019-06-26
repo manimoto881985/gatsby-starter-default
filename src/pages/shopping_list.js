@@ -7,6 +7,9 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
+import { faCaretLeft } from '@fortawesome/free-solid-svg-icons'
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 
 const IndexPage = () => (
   <Layout>
@@ -172,6 +175,21 @@ const IndexPage = () => (
         <iframe style={{width: 120, height: 240}} marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=mani88-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4801810241&linkId=ed7a04cbbfde4c9b7da6b81aa28a51dd"></iframe>
       </li>
     </ul>
+
+    <nav class="pagination is-small is-centered ikukyu__pagination" role="navigation" aria-label="pagination">
+      <Link to="/after_childbirth_logistics" className="pagination-previous">
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretLeft} />
+        </span>
+        出産直後の手続き整理
+      </Link>
+      <Link to="/purchasing_system" className="pagination-next">
+        日常的な買い物体制の整備
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretRight} />
+        </span>
+      </Link>
+    </nav>
   </Layout>
 )
 

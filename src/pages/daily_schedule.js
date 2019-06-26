@@ -1,9 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileExcel } from '@fortawesome/free-solid-svg-icons'
 import { faFileCsv } from '@fortawesome/free-solid-svg-icons'
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { faCaretLeft } from '@fortawesome/free-solid-svg-icons'
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -78,6 +81,21 @@ const IndexPage = () => (
         </a>
       </p>
     </div>
+
+    <nav class="pagination is-small is-centered ikukyu__pagination" role="navigation" aria-label="pagination">
+      <Link to="/housework" className="pagination-previous">
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretLeft} />
+        </span>
+        家事分担表の作成
+      </Link>
+      <Link to="/after_childbirth_logistics" className="pagination-next">
+        出産直後の手続き整理
+        <span class="icon">
+          <FontAwesomeIcon icon={faCaretRight} />
+        </span>
+      </Link>
+    </nav>
   </Layout>
 )
 
