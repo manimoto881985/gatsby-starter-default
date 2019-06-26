@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Header from "./header"
 import Menu from "./menu"

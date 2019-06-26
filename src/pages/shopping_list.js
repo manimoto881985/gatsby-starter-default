@@ -8,6 +8,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { faCaretLeft } from '@fortawesome/free-solid-svg-icons'
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 
