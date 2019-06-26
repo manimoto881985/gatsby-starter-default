@@ -55,6 +55,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+
     <footer>
       <div>© {new Date().getFullYear()} 男性育休やることマニュアル</div>
       <div>

@@ -29,34 +29,36 @@ const IndexPage = () => (
       子どもの分だけでなく、以下のゴム印を作成した。
     </p>
 
-    <ul>
-      <li>
-        共通
-        <ul>
-          <li>住所</li>
-        </ul>
-      </li>
-      <li>
-        子ども
-        <ul>
-          <li>名前</li>
-        </ul>
-      </li>
-      <li>
-        妻
-        <ul>
-          <li>名前</li>
-          <li>携帯電話番号</li>
-        </ul>
-      </li>
-      <li>
-        夫
-        <ul>
-          <li>名前</li>
-          <li>携帯電話番号</li>
-        </ul>
-      </li>
-    </ul>
+    <div className="content">
+      <ul>
+        <li>
+          共通
+          <ul>
+            <li>住所</li>
+          </ul>
+        </li>
+        <li>
+          子ども
+          <ul>
+            <li>名前</li>
+          </ul>
+        </li>
+        <li>
+          妻
+          <ul>
+            <li>名前</li>
+            <li>携帯電話番号</li>
+          </ul>
+        </li>
+        <li>
+          夫
+          <ul>
+            <li>名前</li>
+            <li>携帯電話番号</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
     <p>
       ゴム印は<a href="https://www.gom-in.com/shop/item/GO-KJ-DS-0531.html" target="_blank" rel="noopener noreferrer">ハンコヤドットコム</a>で作成した<br />

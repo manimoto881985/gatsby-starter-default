@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <section className="section">
-          <div className="container content ikukyu__container">
+          <div className="container ikukyu__container">
             <main>{children}</main>
           </div>
         </section>
