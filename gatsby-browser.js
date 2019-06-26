@@ -4,5 +4,5 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-require('./src/components/bulma.min.css')
-require('./src/components/common.sass')
+require('./src/css/bulma.min.css')
+require('./src/css/site.sass')

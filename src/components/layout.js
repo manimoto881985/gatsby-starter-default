@@ -12,8 +12,8 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Header from "./header"
 import Menu from "./menu"
-import "./bulma.min.css"
-import "./common.sass"
+import "../css/bulma.min.css"
+import "../css/site.sass"
 
 const Layout = ({ children }) => (
   <StaticQuery
