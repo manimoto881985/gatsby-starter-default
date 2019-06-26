@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Menu from "./menu"
 import "./bulma.min.css"
 import "./common.sass"
 
@@ -30,6 +31,7 @@ const Layout = ({ children }) => (
         <section className="section">
           <div className="container ikukyu__container">
             <main>{children}</main>
+            <Menu />
           </div>
         </section>
         <footer>
