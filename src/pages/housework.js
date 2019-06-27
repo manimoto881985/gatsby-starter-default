@@ -22,7 +22,9 @@ const IndexPage = () => (
       友人に「子どもが生まれたあとは慌ただしくなるから、やれることは生まれる前にやっておいたほうがいいよ」と言われたので、「夫の復職後の家事分担表」も子どもが生まれる前に作成した。実際生まれると慌ただしく、作成しておいて大正解だった。
     </p>
 
-    <img src="/images/housework/housework.png" alt="家事分担表" />
+    <OutboundLink href="https://docs.google.com/spreadsheets/d/1dovHvfwZXgKJaVuYKvQ5KPDTMjZEyZj4fMO2prbxJic/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <img src="/images/housework/housework.png" alt="家事分担表" />
+    </OutboundLink>
 
     <p>
       <OutboundLink href="https://docs.google.com/spreadsheets/d/1dovHvfwZXgKJaVuYKvQ5KPDTMjZEyZj4fMO2prbxJic/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
@@ -78,10 +80,14 @@ const IndexPage = () => (
 
     <div class="columns is-mobile">
       <div class="column">
-        <img src="/images/housework/habitica1.png" className="ikukyu__screen_capture" alt="Habiticaメイン画面" />
+        <OutboundLink href="https://habitica.com/static/home" target="_blank" rel="noopener noreferrer">
+          <img src="/images/housework/habitica1.png" className="ikukyu__screen_capture" alt="Habiticaメイン画面" />
+        </OutboundLink>
       </div>
       <div class="column">
-        <img src="/images/housework/habitica2.png" className="ikukyu__screen_capture" alt="Habiticaレベルアップ画面" />
+        <OutboundLink href="https://habitica.com/static/home" target="_blank" rel="noopener noreferrer">
+          <img src="/images/housework/habitica2.png" className="ikukyu__screen_capture" alt="Habiticaレベルアップ画面" />
+        </OutboundLink>
       </div>
     </div>
 
