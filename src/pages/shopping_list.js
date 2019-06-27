@@ -17,7 +17,7 @@ const IndexPage = () => (
     <SEO title="買い物リストの作成" description="買い物リストを作成した。" />
     <h1 className="title ikukyu__title">買い物リストの作成</h1>
     <p>買い物リストを作成した。</p>
-    <img src="/images/shopping_list/shopping_list.svg" alt="買い物リスト" />
+    <img src="/images/shopping_list/shopping_list.png" alt="買い物リスト" />
 
     <p>
       <OutboundLink href="https://docs.google.com/spreadsheets/d/1t5BJs8pSsm5ygetC0vhUYwaq4SDlsdy5-8H7VZ7WTW4/edit#gid=0" target="_blank" rel="noopener noreferrer">
