@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Header from "./header"
+import Footer from "./footer"
 import Menu from "./menu"
 import "../css/bulma.min.css"
 import "../css/site.sass"
@@ -35,12 +36,7 @@ const Layout = ({ children }) => (
             <Menu />
           </div>
         </section>
-        <footer>
-          <div>© {new Date().getFullYear()} 男性育休やることマニュアル</div>
-          <div>
-            <OutboundLink href="#">お問い合わせ</OutboundLink>
-          </div>
-        </footer>
+        <Footer />
       </>
     )}
   />

@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Header from "../components/header"
+import Footer from "../components/footer"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -63,12 +64,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <footer>
-      <div>© {new Date().getFullYear()} 男性育休やることマニュアル</div>
-      <div>
-        <OutboundLink href="#">お問い合わせ</OutboundLink>
-      </div>
-    </footer>
+    <Footer />
   </>
 )
 
